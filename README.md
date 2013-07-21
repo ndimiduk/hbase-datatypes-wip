@@ -28,17 +28,17 @@ The main idea is that the index.html file has been stripped down, the js config 
 
 You heard me... ALL the slide content is in one file... slides.md
 
-You use `--SLIDE--` on a line by itself to indicate the next horizontal slide.  You use `--SUBSLIDE--` on a line by itslef to indicate the next vertical sub-slide.
+You use `<!-- SLIDE-->` on a line by itself to indicate the next horizontal slide.  You use `<!-- SUBSLIDE-- >` on a line by itslef to indicate the next vertical sub-slide.
 
 You can just use html comments inline to write notes etc:
 
     <!------------------------------------------------------------>
-    --SLIDE--
+    <!-- SLIDE -->
     <!-- Topic: xxx -->
     
     <h1>Slide 15</h1>
     
-    --SUBSLIDE--
+    <!-- SUBSLIDE -->
     
     <h2>Sub Slide 15--1</h2>
 
